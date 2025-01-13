@@ -242,3 +242,142 @@
 .contact-form button:hover {
     background-color: orangered;
 }
+
+/* Media Query */
+
+/* Base Styles (Mobile-First) */
+.navbar {
+    padding: 10px 15px;
+}
+.navbar a {
+    margin: 5px 0;
+}
+.hero {
+    height: 55vh;
+    padding: 10px;
+}
+.hero-content h1 {
+    font-size: 1.8rem;
+    margin: 10px 0 15px 10px;
+}
+.hero-content p {
+    margin: 5px 10px;
+    line-height: 1.5;
+}
+.hero .btn {
+    margin: 15px 10px;
+}
+.card {
+    margin: 10px 5px;
+    padding: 10px;
+    gap: 15px;
+}
+.contact {
+    padding: 10px;
+    margin: 20px 5px;
+}
+.contact-item {
+    margin: 10px 0;
+    padding: 10px;
+}
+.contact-form {
+    padding: 15px;
+    margin: 0 auto;
+}
+
+/* Small Devices (600px and Up) */
+@media (min-width: 600px) {
+    .navbar {
+        padding: 15px 20px;
+    }
+    .hero {
+        height: 60vh;
+        padding: 15px;
+    }
+    .hero-content h1 {
+        font-size: 2.2rem;
+        margin: 20px 15px;
+    }
+    .card {
+        margin: 15px;
+        padding: 15px;
+    }
+    .contact {
+        padding: 20px;
+    }
+    .contact-item {
+        margin: 15px 10px;
+    }
+    .contact-form {
+        padding: 20px;
+        margin: 0 auto;
+    }
+}
+
+/* Medium Devices (768px and Up) */
+@media (min-width: 768px) {
+    .navbar {
+        padding: 20px 30px;
+    }
+    .hero {
+        height: 70vh;
+        padding: 20px;
+    }
+    .hero-content h1 {
+        font-size: 2.8rem;
+        margin: 20px 25px;
+    }
+    .hero-content p {
+        margin: 20px 25px;
+        line-height: 1.8;
+    }
+    .card {
+        margin: 20px;
+        padding: 20px;
+    }
+    .contact {
+        padding: 30px;
+    }
+    .contact-item {
+        margin: 20px 15px;
+    }
+    .contact-form {
+        max-width: 600px;
+        padding: 25px;
+        margin: 0 auto;
+    }
+}
+
+/* Large Devices (1200px and Up) */
+@media (min-width: 1200px) {
+    .navbar {
+        padding: 25px 40px;
+    }
+    .hero {
+        height: 80vh;
+        padding: 30px;
+    }
+    .hero-content h1 {
+        font-size: 3.5rem;
+        margin: 30px 40px;
+    }
+    .hero-content p {
+        margin: 25px 40px;
+        line-height: 2;
+    }
+    .card {
+        margin: 25px;
+        padding: 25px;
+    }
+    .contact {
+        padding: 40px;
+    }
+    .contact-item {
+        margin: 30px 20px;
+    }
+    .contact-form {
+        max-width: 700px;
+        padding: 30px;
+        margin: 0 auto;
+    }
+}
